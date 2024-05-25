@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+	border: #000000;
+}
+img.user {
+  width: 25%;
+  border-radius: 50%;
+  border: #000000;
+
+}
+.bg-img {
+  /* The image used */
+  background-image: url("Images/apple-background-hd-1080p-296563.jpg");
+
+  min-height: 727px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin:120px;
+  max-width:350px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:#BABABA;
+  color: white;
+  font-size: 10px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+p
+{
+	font-family: "Cambria Math";
+	font-size: 15px;
+}
+
+h1
+{
+	text-align: center;
+	color:#FEFCFC;
+    background-color:#000000;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 75px;
+}

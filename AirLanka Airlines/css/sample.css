@@ -1,0 +1,664 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  border: #000000;
+}
+img.user {
+  width: 25%;
+  border-radius: 50%;
+  border: #000000;
+
+}
+
+.bg-img2 {
+  /* The image used */
+  background-image: url("../images/Deep-Blue-Sky-and-Pure-White-Wings-Wallpapers-32-images-.png");
+  min-height: 625px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img3 {
+  /* The image used */
+  background-image: url("../images/global-map-background-vector-illustration-world-design-190474648.jpg");
+  min-height: 625px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin:30px;
+  max-width:500px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.container1 {
+  position:static;
+  margin:20px;
+  max-width: 800px;
+  padding: 30px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+
+.container2 {
+  position:static;
+  margin:20px;
+  max-width: 800px;
+  padding: 30px;
+  background-image: url("../images/global-map-background-vector-illustration-world-design-190474648.jpg");
+  border-radius: 30px;
+}
+
+
+input[type=date], input[type=time] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=list] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=select] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:#BABABA;
+  color: white;
+  font-size: 10px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn1 {
+  background-color: #000087;
+  color: white;
+  font-size: 15px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+p20
+{
+	font-family: "Cambria Math";
+	font-size: 15px;
+}
+
+h4
+{
+	text-align: center;
+	color:black;
+	font-size: 30px;
+}
+h2
+{
+	text-align: center;
+	color:#FEFCFC;
+    background-color:#000000;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 75px;
+}
+
+div.pic img
+{
+	align-items: center;
+	display: inline;
+	width:inherit;
+	height: inherit;
+	
+}
+
+div.logo img
+{
+	align-items: center;
+	display: inline;
+	
+}
+
+p
+{
+    font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 40px;
+	text-align: center;	
+	color: #FEFEFE;
+}
+p1
+{
+    font-size: 20px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #FEFEFE;
+}
+p2
+{
+    font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 50px;
+	text-align: center;	
+	color: #FEFEFE;
+}
+div.pic1 img
+{
+	align-items: center;
+		
+}
+div.pic2 img
+{
+	align-items: center;
+	width:100%;
+	height: 20%	
+	
+}
+
+p3
+{
+    font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 14px;
+	text-align: left;	
+	color:black;
+}
+
+
+body {
+  margin: 0;
+  background:url("../images/Deep-Blue-Sky-and-Pure-White-Wings-Wallpapers-32-images-.png");
+}
+
+a {
+  text-decoration: none;
+  color:#000000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color:#EEECEC;
+  font-family: calibri;
+  padding: 0 22px;
+  padding-bottom: 21px;
+  overflow: hidden;
+}
+
+.footer-content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  padding-top: 21px;
+  overflow: hidden;
+}
+
+.footer-col {
+  width: 20%;
+  float: left;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+h3 {
+    color: #333;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    background:#EEECEC;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.product-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.product-list li {
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.product-list a {
+  color: #555;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.product-list a:hover {
+  color: #333;
+}
+
+input[type="checkbox"]:checked+.col-section .product-list {
+    transition: transform 300ms ease, -webkit-transform 300ms ease;
+    visibility: visible;
+    position: static;
+    transform: none;
+}
+
+input[type="checkbox"]:checked+.col-section h3::after {
+    transform: rotate(45deg) scale(1.08);
+}
+
+.footer-base {
+  padding-top: 34px;
+  padding-bottom: 21px;
+  color: #888;
+  font-size: 12px; 
+}
+
+.footer-more-ways {
+  margin-bottom: 7px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 767px) {
+  
+  footer {
+    padding: 0 16px;
+    padding-bottom: 21px;
+  }
+  
+  .footer-col {
+    width: 100%;
+  }
+  
+  .item {
+    border-bottom: 1px solid #d6d6d6;
+  }
+  
+  h3 {
+    padding: 10px 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  h3::after {
+    content: '+';
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-right: 8px;
+    transition: transform .3s ease
+  }
+  
+  .product-list {
+    visibility: hidden;
+    position: absolute;
+    transform: translateY(-100px);
+    z-index: 1;
+    padding: 5px 0 16px 0;
+  }
+  
+  .product-list li {
+    margin: 0;
+  }
+  
+  .product-list a {
+    display: block;
+    padding: 6px 14px;
+  }
+  
+  .footer-col {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .item-padding-top {
+    padding-top: 24px;
+  }
+}
+
+.footer-legal-copyright {
+    margin-right: 30px;
+    float: left;
+    margin-top: 3px;
+}
+
+.footer-legal-links {
+  float: left;
+}
+
+.footer-legal-links a {
+  border-right: 1px solid #d6d6d6;
+  margin-right: 10px;
+  padding-right: 12px;
+  display: inline-block;
+  margin-top: 3px;
+  white-space: nowrap;
+  color: #555;
+}
+
+.footer-legal-links a:last-child {
+  border-right: none;
+}
+
+.footer-legal-links a:hover {
+  color: #333;
+}
+
+
+button {
+  border-radius: 30px;
+  background-color:aliceblue; 
+  border:thin;
+  color:black;
+  cursor: pointer;
+  padding: 15px 32px;
+  font-family: "Cambria Math";
+  text-align: center;
+  text-decoration: inherit;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:active 
+{
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+h1
+{
+	text-align: center;
+	color:#FEFCFC;
+    background-color:#000000;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 75px;
+}
+
+
+table 
+{
+    border-spacing: 40px;
+	text-align: left;
+	font-family: "Cambria Math";
+	font-size: 15px;
+	border-radius: 35px;
+	column-span: all;
+	padding: 30px;
+	}
+p21
+{
+	text-align: center;
+	color:#000000;    
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 40px;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../images/0x0.jpg");
+
+  min-height: 625px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img1{
+  /* The image used */
+  background-image: url("../images/734010.png");
+
+  min-height: 625px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+html {
+  font: 0.625em/1.4 "Lato", Helvetica Neue, sans;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  line-height: 18px;
+  font-size: 14px;
+  font-family:"Cambria Math";
+  text-rendering: optimizelegibility;
+  background: #ebeef0;
+}
+
+#wrapper {
+  width: 100%;
+  min-width: 100px;
+  margin: 0px auto;
+  overflow: auto;
+  min-height: 625;
+
+}
+
+.left-section {
+  width: 250px;
+  background: #31373d;
+  float: left;
+  min-height: 625;
+}
+
+.right-section {
+  width: calc(100% - 250px);
+  float: right;
+}
+
+.nav {
+  background: #31373d;
+  padding: 0px;
+  margin: 0px;
+  width: 250px;
+  overflow: hidden;
+  list-style: none;
+  box-shadow: none repeat scroll 0% 0% #2b3136;
+  box-sizing: border-box;
+}
+
+.menu-item {
+  text-decoration: none;
+  padding: 15px 25px;
+  width: 197px;
+  display: block;
+  font-size: 1.2em;
+  color: #F5F5F5;
+  -webkit-transition-duration: 0.15s; /* Safari */
+  transition-duration: 0.15s;
+}
+
+.ftm {
+  margin-right: 10px;
+}
+
+.fa-icon-lg {
+  font-size: 400%;
+  display: block;
+  margin: 5px 0px 30px 35px;
+}
+
+.menu-item:hover {
+  background: #272c30;
+  color: #fff;
+  border-left: 3px solid #50b7e0;
+}
+
+.arrow {
+  float: right;
+}
+
+#logo {
+  padding: 20px 0px 20px 20px;
+  border-bottom: 1px solid #222;
+}
+
+#top {
+  top: 0px;
+  width: 100%;
+  background: #fff;
+  padding: 15px 25px;
+  height: 50px;
+  margin-right: 0px;
+  line-height: 50px;
+}
+
+#name {
+  margin: 0px;
+  color: #000000;
+}
+
+#top-left {
+  float: left;
+}
+
+#top-right {
+  float: right;
+  padding-right: 55px;
+}
+
+.btn {
+  background:#4BCAFC;
+	color: #000000;
+	font-size: 20px;
+  border: 1px solid #e3e3e3;
+  vertical-align: middle;
+  -moz-user-select: none;
+  border-radius: 3px;
+  text-decoration: none;
+  white-space: nowrap;
+  text-transform: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  height: 32px;
+  line-height: 30px;
+  padding: 0px 9px;
+}
+
+.btn:hover {
+  background: #f2f2f2;
+}
+
+.inner-container-left {
+  width: calc(100% - 700px);
+  margin: 25px 0px 0px 25px;
+  padding: 25px;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  -moz-box-shadow:    2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  box-shadow:         2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  float: left;
+}
+
+.inner-container-right {
+  width: 250px;
+  /*width: calc(100% - 50px);*/
+  margin: 25px;
+  padding: 25px;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  -moz-box-shadow:    2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  box-shadow:         2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  float: left;
+}
+
+.clear {clear: both;}
+
+
+
+h3
+{
+	text-align: center;
+	color:#000000;
+    font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 50px;
+}
+
+
